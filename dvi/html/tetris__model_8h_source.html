@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Brick_game 2.0: Исходный файл components/model/tetris_model.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Brick_game 2.0
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_409f97388efe006bc3438b95e9edef48.html">components</a></li><li class="navelem"><a class="el" href="dir_c71d28806cdb0bceaffbcafbb331748b.html">model</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">tetris_model.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tetris__model_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../model.h&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;../../brick_game/tetris/backend.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaces21.html">s21</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classs21_1_1TetrisModel.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="classs21_1_1TetrisModel.html">TetrisModel</a> : <span class="keyword">public</span> <a class="code" href="classs21_1_1Model.html">Model</a> {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="classs21_1_1TetrisModel.html#af9de0ea39c5d780c2882930ee8cf5604">TetrisModel</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  ~<a class="code" href="classs21_1_1TetrisModel.html">TetrisModel</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classs21_1_1TetrisModel.html#a26bc09be3cb3e2d8d72979e5a53a0a8a">userInput</a>(<a class="code" href="specification_8h.html#a7ba289d7b97db30e0b7041ca2cef75a9">UserAction_t</a> action, <span class="keywordtype">bool</span> hold) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <a class="code" href="structGameInfo__t.html">GameInfo_t</a> <a class="code" href="classs21_1_1TetrisModel.html#a58a2ff466749bf92a3e4c766f6c87431">updateCurrentState</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;};</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}  <span class="comment">// namespace s21</span></div>
+<div class="ttc" id="aclasss21_1_1Model_html"><div class="ttname"><a href="classs21_1_1Model.html">s21::Model</a></div><div class="ttdoc">Абстрактный класс модели</div><div class="ttdef"><b>Definition:</b> model.h:13</div></div>
+<div class="ttc" id="aclasss21_1_1TetrisModel_html"><div class="ttname"><a href="classs21_1_1TetrisModel.html">s21::TetrisModel</a></div><div class="ttdoc">Класс модели тетриса</div><div class="ttdef"><b>Definition:</b> tetris_model.h:18</div></div>
+<div class="ttc" id="aclasss21_1_1TetrisModel_html_a26bc09be3cb3e2d8d72979e5a53a0a8a"><div class="ttname"><a href="classs21_1_1TetrisModel.html#a26bc09be3cb3e2d8d72979e5a53a0a8a">s21::TetrisModel::userInput</a></div><div class="ttdeci">void userInput(UserAction_t action, bool hold) override</div><div class="ttdoc">Метод обработки нажатых пользователем клавиш</div><div class="ttdef"><b>Definition:</b> tetris_model.cpp:19</div></div>
+<div class="ttc" id="aclasss21_1_1TetrisModel_html_a58a2ff466749bf92a3e4c766f6c87431"><div class="ttname"><a href="classs21_1_1TetrisModel.html#a58a2ff466749bf92a3e4c766f6c87431">s21::TetrisModel::updateCurrentState</a></div><div class="ttdeci">GameInfo_t updateCurrentState() override</div><div class="ttdoc">Метод обновления состояния игры.</div><div class="ttdef"><b>Definition:</b> tetris_model.cpp:27</div></div>
+<div class="ttc" id="aclasss21_1_1TetrisModel_html_af9de0ea39c5d780c2882930ee8cf5604"><div class="ttname"><a href="classs21_1_1TetrisModel.html#af9de0ea39c5d780c2882930ee8cf5604">s21::TetrisModel::TetrisModel</a></div><div class="ttdeci">TetrisModel()</div><div class="ttdoc">Конструктор модели</div><div class="ttdef"><b>Definition:</b> tetris_model.cpp:12</div></div>
+<div class="ttc" id="anamespaces21_html"><div class="ttname"><a href="namespaces21.html">s21</a></div><div class="ttdoc">Заголовочный файл класса Controller.</div><div class="ttdef"><b>Definition:</b> snakemodel.cpp:9</div></div>
+<div class="ttc" id="aspecification_8h_html_a7ba289d7b97db30e0b7041ca2cef75a9"><div class="ttname"><a href="specification_8h.html#a7ba289d7b97db30e0b7041ca2cef75a9">UserAction_t</a></div><div class="ttdeci">UserAction_t</div><div class="ttdoc">Последовательность для нажатой клавиши</div><div class="ttdef"><b>Definition:</b> specification.h:27</div></div>
+<div class="ttc" id="astructGameInfo__t_html"><div class="ttname"><a href="structGameInfo__t.html">GameInfo_t</a></div><div class="ttdoc">Структура с актуальными данными по игре</div><div class="ttdef"><b>Definition:</b> specification.h:42</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icon"/>
+    <qresource prefix="/">
+        <file>free-icon-tetris-720684.png</file>
+    </qresource>
+</RCC>
