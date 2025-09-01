@@ -50,9 +50,6 @@ uninstall:
 	@$(RM) $(INSTALL_DIR)
 	@echo -- Uninstall complete.
 
-dvi:
-	@google-chrome dvi/html/index.html
-
 dist: build
 	@$(RM) $(TAR_DIR)
 	@mkdir $(TAR_DIR)
